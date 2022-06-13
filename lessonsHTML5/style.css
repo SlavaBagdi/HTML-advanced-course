@@ -10,53 +10,63 @@
 }
 
 .header {
-    height: 75px;
     background-color: #222222;
+
 }
 
+/*меню хедера - лого, баскет и тд*/
 .header_menu {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
 }
 
 .header_left_menu {
+    height: 38px;
     display: flex;
     list-style-type: none;
-
 }
 
 .header_right_menu {
-    display: flex;
     list-style-type: none;
+    display: flex;
 }
 
-.header_left_menu_logo {
-    padding-top: 18px;
-}
-
-.header_left_menu_search {
-    padding-left: 41px;
-    padding-top: 28px;
-    padding-right: 859px;
+.header_left_menu_link {
+    padding-right: 41px;
 }
 
 .header_right_menu_burgermenu {
-    padding-right: 33px;
-    padding-top: 30px;
+    padding-right: 25px;
     position: relative;
-
-
 }
 
-.header_right_menu_contact {
-    padding-right: 33px;
-    padding-top: 26px;
+.fa-solid {
+    color: #E8E8E8;
 }
 
 .header_right_menu_basket {
-    padding-right: 236px;
-    padding-top: 26px;
+    padding-left: 42px;
 }
 
+.header_left_menu_link:hover .fa-solid {
+    color: #F16D7F;
+}
+
+.header_right_menu_burgermenu:hover .fa-solid {
+    color: #F16D7F;
+}
+
+.header_right_menu_contact:hover .fa-solid {
+    color: #F16D7F;
+}
+
+.header_right_menu_basket:hover .fa-solid {
+    color: #F16D7F;
+}
+
+/*контент на индекс*/
 .banner {
     background-color: #F1E4E6;
 }
@@ -64,13 +74,11 @@
 .banner_content {
     display: flex;
     height: 764px;
-
 }
 
 .men {
     height: 764px;
     width: 570px;
-
 }
 
 
@@ -91,7 +99,6 @@
     width: 12px;
     height: 90px;
     margin-top: 297px;
-
     background: #F16D7F;
 }
 
@@ -124,6 +131,7 @@
 
 }
 
+/*блоки с категориями товаров  - М, Ж,, Д и аксс - страница индекс*/
 .block_man {
     display: flex;
     justify-content: center;
@@ -206,8 +214,6 @@
     padding-left: 490px;
     padding-top: 65px;
     box-sizing: border-box;
-
-
 }
 
 .item_link_things {
@@ -343,11 +349,9 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-
     text-align: center;
     width: 100px;
     height: 100%;
-
     border-radius: 0px 40px 40px 0px;
 }
 
@@ -404,7 +408,6 @@
 .fa-twitter-square {
     font-size: 31px;
     color: #F1E4E6;
-
 }
 
 .fa-vk:hover {
@@ -426,7 +429,6 @@
     position: absolute;
     z-index: 10000;
     display: none;
-
 }
 
 .menu {
@@ -447,7 +449,6 @@
 .item_column_menu {
     display: flex;
     flex-direction: column;
-
 }
 
 .header_man {
@@ -497,7 +498,6 @@
 .registration_box {
     display: flex;
     justify-content: space-between;
-
 }
 
 .Your_Name {
@@ -521,7 +521,6 @@
     color: #B1B1B1;
     padding-left: 17px;
 }
-
 
 .radio:hover {
     border: 1px solid #F16D7F;
@@ -553,7 +552,6 @@
     height: 334px;
     margin-top: 64px;
     margin-left: 128px;
-
 }
 
 .loyality_bonus_li::before {
@@ -586,7 +584,6 @@
     margin-top: 31px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .submit_registration_form {
@@ -598,7 +595,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-
 }
 
 .submit_registration_form:hover {
@@ -617,8 +613,6 @@
     height: 58px;
     margin-top: 22px;
     margin-bottom: 21px;
-
-
 }
 
 .paragraf_footer {
@@ -652,7 +646,6 @@ h4 {
 }
 
 .h5 {
-
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
@@ -675,9 +668,6 @@ h4 {
 .catalog_block {
     background-color: #E5E5E5;
     height: 100%;
-
-
-
 }
 
 .catalog_heading {
@@ -689,7 +679,6 @@ h4 {
     color: #222222;
     text-align: center;
     padding-top: 96px;
-
 }
 
 .catalog_disckriptions {
@@ -704,7 +693,6 @@ h4 {
 }
 
 .catalog_box {
-    border: 1px solid #000;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -714,7 +702,7 @@ h4 {
 .item_catalog {
     width: 360px;
     position: relative;
-
+    margin-bottom: 30px;
 }
 
 .item_catalog_link {
@@ -731,7 +719,6 @@ h4 {
 .catalog_txt {
     width: 314.74px;
     padding: 16px 20px 28px 23px;
-
 }
 
 .item_catalog_link:hover {
@@ -748,7 +735,6 @@ h4 {
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
-
     color: #000000;
 }
 
@@ -783,7 +769,6 @@ h4 {
 .add {
     display: flex;
     text-decoration: none;
-    border: 1px solid rgb(245, 241, 241);
     padding: 8px;
     justify-content: center;
     align-items: center;
@@ -813,22 +798,15 @@ h4 {
 
 /*отдельная страница каталог*/
 .header_catalog {
-    height: 146px;
-    display: flex;
-    justify-content: center;
     background-color: #F8F3F4;
-    border: 1px solid #000;
+
 }
 
 .header_catalog_box {
+    height: 146px;
     display: flex;
-    border: 1px solid #000;
     justify-content: space-between;
-
-}
-
-.header_catalog_left {
-    border: 1px solid #000;
+    align-items: center;
 
 }
 
@@ -855,16 +833,11 @@ h4 {
 .catalog_menu_box {
     background-color: #E5E5E5;
     display: flex;
-
     padding-top: 51px;
     padding-bottom: 64px;
-    border: 1px solid #000;
-
 }
 
-
 /*выпадающее меню фильтр*/
-
 
 .menu_list {
     display: flex;
@@ -881,8 +854,6 @@ h4 {
     padding-left: 0;
     padding-right: 11px;
 }
-
-
 
 .fa-align-left {
     padding-left: 11px;
@@ -907,18 +878,31 @@ h4 {
 .submenu_link {
     display: block;
     text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    padding-bottom: 11px;
+
+}
+
+.submenu_link:hover {
+    color: #EF5B70;
 }
 
 .summary {
     list-style-type: none;
-    border-left: 2px solid #EF5B70;
-    margin-bottom: 18px;
+    border-left: 4px solid #EF5B70;
+    margin-top: 38px;
+    margin-bottom: 28px;
+
 }
 
 .summary:hover {
     color: #EF5B70;
-    border-left: 2px solid #EF5B70;
-
+    border-left: 4px solid #EF5B70;
 }
 
 .menu_list .menu_item:hover .submenu {
@@ -932,7 +916,6 @@ h4 {
     list-style: none;
     flex-wrap: wrap;
     width: 360px;
-
     background-color: #FFFFFF;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 }
@@ -957,8 +940,12 @@ h4 {
 
 
 /*пагинация*/
-.pagination {
+.pagination_box {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 18px;
+    padding-bottom: 97px;
 
 }

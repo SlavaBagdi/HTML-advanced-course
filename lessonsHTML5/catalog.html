@@ -19,57 +19,60 @@
 
 <body>
     <header class="header">
-        <nav class="container header_menu">
-            <ul class="header_left_menu">
-                <li class="header_left_menu_logo"><a href="#"><img src="img/logo.svg" alt="logo"></a></li>
+        <div class="container">
+            <nav class="header_menu">
+                <div class="header_left_menu">
+                    <li><a class="header_left_menu_link" href="#"><img src="img/logo.svg" alt="logo"></a></li>
+                    <li><a class="header_left_menu_link" href="#"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+                    </li>
+                </div>
 
-                <li class="header_left_menu_search"><a href="#"><img src="img/search.svg" alt="search"></a></li>
-            </ul>
 
+                <div class="header_right_menu">
+                    <li class="header_right_menu_burgermenu"><a class="header_right_menu_burgermenu" href="#"><i
+                                class="fa-solid fa-align-justify fa-2x"></i></a>
+                        <div class="column_menu">
+                            <h3 class="menu">MENU</h3>
 
-            <ul class="header_right_menu">
-                <li class="header_right_menu_burgermenu"><a href="#"> <img src="img/burgermenu.svg" alt="menu"></a>
-                    <div class="column_menu">
-                        <h3 class="menu">MENU</h3>
+                            <div class="item_column_menu">
+                                <h3 class="header_man" href="#">MAN</h3>
+                                <a class="item_column_text" href="#">Accessories</a>
+                                <a class="item_column_text" href="#">Bags</a>
+                                <a class="item_column_text" href="#">Denim</a>
+                                <a class="item_column_text" href="#">T-Shirts</a>
 
-                        <div class="item_column_menu">
-                            <h3 class="header_man" href="#">MAN</h3>
-                            <a class="item_column_text" href="#">Accessories</a>
-                            <a class="item_column_text" href="#">Bags</a>
-                            <a class="item_column_text" href="#">Denim</a>
-                            <a class="item_column_text" href="#">T-Shirts</a>
+                            </div>
+                            <div class="item_column_menu">
+                                <h3 class="header_man" href="#">WOMAN</h3>
+                                <a class="item_column_text" href="#">Accessories</a>
+                                <a class="item_column_text" href="#">Jackets & Coats</a>
+                                <a class="item_column_text" href="#">Polos</a>
+                                <a class="item_column_text" href="#">T-Shirts</a>
+                                <a class="item_column_text" href="#">Shirts</a>
 
+                            </div>
+                            <div class="item_column_menu">
+                                <h3 class="header_man" href="#">KIDS</h3>
+                                <a class="item_column_text" href="#">Accessories</a>
+                                <a class="item_column_text" href="#">Jackets & Coats</a>
+                                <a class="item_column_text" href="#">Polos</a>
+                                <a class="item_column_text" href="#">T-Shirts</a>
+                                <a class="item_column_text" href="#">Shirts</a>
+                                <a class="item_column_text" href="#">Bags</a>
+
+                            </div>
                         </div>
-                        <div class="item_column_menu">
-                            <h3 class="header_man" href="#">WOMAN</h3>
-                            <a class="item_column_text" href="#">Accessories</a>
-                            <a class="item_column_text" href="#">Jackets & Coats</a>
-                            <a class="item_column_text" href="#">Polos</a>
-                            <a class="item_column_text" href="#">T-Shirts</a>
-                            <a class="item_column_text" href="#">Shirts</a>
+                    </li>
+                    <li><a class="header_right_menu_contact" href="registraion.html"> <i
+                                class="fa-solid fa-user-large fa-2x"></i></a></li>
+                    <li class="header_right_menu_basket"><a href="#"> <i
+                                class="fa-solid fa-cart-shopping fa-2x"></i></a>
 
-                        </div>
-                        <div class="item_column_menu">
-                            <h3 class="header_man" href="#">KIDS</h3>
-                            <a class="item_column_text" href="#">Accessories</a>
-                            <a class="item_column_text" href="#">Jackets & Coats</a>
-                            <a class="item_column_text" href="#">Polos</a>
-                            <a class="item_column_text" href="#">T-Shirts</a>
-                            <a class="item_column_text" href="#">Shirts</a>
-                            <a class="item_column_text" href="#">Bags</a>
+                    </li>
+                </div>
+            </nav>
 
-                        </div>
-                    </div>
-                </li>
-                <li class="header_right_menu_contact"><a href="registraion.html"> <img src="img/contact.svg"
-                            alt="contact"></a></li>
-                <li class="header_right_menu_basket"><a href="#"> <img src="img/basket.svg" alt="basket"></a>
-
-                </li>
-            </ul>
-
-        </nav>
-
+        </div>
 
     </header>
 
@@ -84,17 +87,14 @@
 
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="#">HOME</a></li>
-                            <li class="breadcrumb-item"><a href="#">MEN</a></li>
+                            <li class="breadcrumb-item"><a class="breadcrumb-item" href="#">HOME</a></li>
+                            <li class="breadcrumb-item"><a class="breadcrumb-item" href="#">MEN</a></li>
                             <li class="breadcrumb-item active" aria-current="page"> <span class="red">NEW
                                     ARRIVALS</span></li>
                         </ol>
                     </nav>
                 </div>
             </div>
-
-
-
         </div>
     </div>
 
@@ -450,24 +450,25 @@
                     </div>
 
                 </div>
+                <div class="pagination_box">
+                    <nav aria-label="Page navigation">
 
-                <nav aria-label="Page navigation">
-
-                    <ul class="pagination">
-                        <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Previous">
-                                <span aria-hidden="true">&laquo;</span>
-                            </a>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item">
-                            <a class="page-link" href="#" aria-label="Next">
-                                <span aria-hidden="true">&raquo;</span>
-                            </a>
-                        </li>
-                    </ul>
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                </div>
                 </nav>
             </div>
 
