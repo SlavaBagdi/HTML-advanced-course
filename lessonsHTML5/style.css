@@ -947,5 +947,115 @@ h4 {
     justify-content: center;
     padding-top: 18px;
     padding-bottom: 97px;
+}
+
+/*страница продукт*/
+/*меню карусель*/
+.product_banner {
+    background: #F7F7F7;
+}
+
+.item_box_product {
+    height: 777px;
+    width: 100%;
+
+}
+
+.item_box_product_woman {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(img/product\ woman.png);
+    height: 724px;
+}
+
+.item_box_product_price {
+    width: 100%;
+    height: 601px;
+    background: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+
+}
+
+.button_cart {
+    border: 1px solid #F16D7F;
+    height: 47px;
+    margin-top: 50px;
+}
+
+.button_cart:hover {
+    border: 2px solid #F16D7F;
+
+}
+
+.fa-cart-plus {
+    color: #F16D7F;
+    padding-right: 10px;
+}
+
+.button_cart_link {
+    display: flex;
+    text-decoration: none;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto;
+    color: #F16D7F;
+
+}
+
+.border_line_product {
+    width: 641px;
+    border: 1px solid#F16D7F;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.woman_coll {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    margin-top: 65px;
+    margin-bottom: 27px;
+
+}
+
+.price_product_disc {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+}
+
+.price_product_paragraf {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    width: 555px;
+    height: 52px;
+    box-sizing: border-box;
+}
+
+.price_product {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+    margin: 0;
 
 }
