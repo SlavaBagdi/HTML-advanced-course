@@ -1,0 +1,48 @@
+.header
+    background-color: #222222
+
+
+    &-menu
+        display: flex
+        justify-content: space-between
+        align-items: center
+        height: 75px
+
+
+    &-left-menu
+        height: 38px
+        display: flex
+        list-style-type: none
+
+
+    &-right-menu
+        list-style-type: none
+        display: flex
+
+
+    &-left-menu-link
+        padding-right: 41px
+
+
+    &-right-menu-burgermenu
+        padding-right: 25px
+        position: relative
+
+.fa-solid
+    color: #E8E8E8
+
+.header-right-menu-basket
+    padding-left: 42px
+
+.header-left-menu-link:hover .fa-solid
+    color: $color-main
+
+.header-right-menu-burgermenu:hover .fa-solid
+    color: $color-main
+
+.header-right-menu-contact:hover .fa-solid
+    color: $color-main
+
+
+    &:hover .fa-solid
+        color: $color-main
