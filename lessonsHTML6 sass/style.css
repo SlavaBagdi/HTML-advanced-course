@@ -59,11 +59,16 @@
   color: #F16D7F;
 }
 
+.latonormal400, .button-cart-text, .submenu-link, .new-arrivals, .add-desk, .price, .catalog-txt-heading, .catalog-disckriptions, .catalog-heading, .h2, .submit-registration-form, .item-column-text, .header-man, .item-link-things, .item-link-kid, .item-link-men, .item-link-woman {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+}
+
 /*контент на индекс*/
 .banner {
   background-color: #F1E4E6;
 }
-
 .banner-content {
   display: flex;
   height: 764px;
@@ -141,9 +146,6 @@
 }
 
 .item-link-woman {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-decoration: none;
@@ -163,9 +165,6 @@
 }
 
 .item-link-men {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -184,9 +183,6 @@
 }
 
 .item-link-kid {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
@@ -208,9 +204,6 @@
 }
 
 .item-link-things {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
@@ -221,12 +214,10 @@
   height: 341px;
   background-color: #222224;
 }
-
 .footer_link {
   background-color: #222224;
   height: 341px;
 }
-
 .footer_box {
   display: flex;
   justify-content: space-around;
@@ -271,7 +262,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 .footer_box_second_line {
   display: flex;
   flex-direction: column;
@@ -368,7 +358,6 @@
   background-color: #222224;
   height: 79px;
 }
-
 .footer_bottom_box {
   display: flex;
   justify-content: space-between;
@@ -402,8 +391,7 @@
 .fa-vk:hover {
   color: #F16D7F;
 }
-
-.fa-twitter-square:hover {
+.fa-vk:hover:hover {
   color: #F16D7F;
 }
 
@@ -441,9 +429,6 @@
 }
 
 .header-man {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #F16D7F;
@@ -454,9 +439,6 @@
 }
 
 .item-column-text {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #6F6E6E;
@@ -465,7 +447,6 @@
   text-align: left;
   padding-left: 54px;
 }
-
 .item-column-text:hover {
   color: #F16D7F;
 }
@@ -483,7 +464,6 @@
 .registration {
   background-color: #E5E5E5;
 }
-
 .registration-box {
   display: flex;
   justify-content: space-between;
@@ -579,13 +559,9 @@
   width: 167px;
   height: 50px;
   margin-bottom: 96px;
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
 }
-
 .submit-registration-form:hover {
   background-color: #F16D7F;
   color: #FFFFFF;
@@ -615,9 +591,6 @@
 }
 
 .h2 {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 24px;
   line-height: 29px;
   color: #F16D7F;
@@ -660,9 +633,6 @@ h4 {
 }
 
 .catalog-heading {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 30px;
   line-height: 36px;
   color: #222222;
@@ -671,9 +641,6 @@ h4 {
 }
 
 .catalog-disckriptions {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #9F9F9F;
@@ -693,21 +660,14 @@ h4 {
   position: relative;
   margin-bottom: 30px;
 }
-
 .item-catalog-link {
   display: block;
   width: 360px;
   text-decoration: none;
 }
-
 .item-catalog-foto {
   width: 100%;
   height: 100%;
-}
-
-.catalog-txt {
-  width: 314.74px;
-  padding: 16px 20px 28px 23px;
 }
 
 .item-catalog-link:hover {
@@ -718,15 +678,15 @@ h4 {
   filter: brightness(30%);
 }
 
+.catalog-txt {
+  width: 314.74px;
+  padding: 16px 20px 28px 23px;
+}
 .catalog-txt-heading {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 13px;
   line-height: 16px;
   color: #000000;
 }
-
 .catalog-txt-disckriptions {
   font-family: "Lato";
   font-style: normal;
@@ -737,9 +697,6 @@ h4 {
 }
 
 .price {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   color: #F16D7F;
@@ -768,9 +725,6 @@ h4 {
 }
 
 .add-desk {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
@@ -788,7 +742,6 @@ h4 {
 .header-catalog {
   background-color: #F8F3F4;
 }
-
 .header-catalog-box {
   height: 146px;
   display: flex;
@@ -797,9 +750,6 @@ h4 {
 }
 
 .new-arrivals {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 24px;
   line-height: 29px;
   color: #F16D7F;
@@ -853,7 +803,6 @@ h4 {
   line-height: 17px;
   color: #000000;
 }
-
 .menu-link:hover {
   color: #F16D7F;
 }
@@ -861,15 +810,11 @@ h4 {
 .submenu-link {
   display: block;
   text-decoration: none;
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   color: #6F6E6E;
   padding-bottom: 11px;
 }
-
 .submenu-link:hover {
   color: #F16D7F;
 }
@@ -880,13 +825,12 @@ h4 {
   margin-top: 38px;
   margin-bottom: 28px;
 }
-
 .summary:hover {
   color: #F16D7F;
   border-left: 4px solid #F16D7F;
 }
 
-.menu-list .menu_item:hover .submenu {
+.menu-list .menu-item:hover .submenu {
   opacity: 1;
 }
 
@@ -896,7 +840,7 @@ h4 {
   z-index: 10000;
   list-style: none;
   flex-wrap: wrap;
-  width: 360px;
+  width: 100px;
   background-color: #FFFFFF;
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 }
@@ -911,7 +855,7 @@ h4 {
 .size {
   display: flex;
   flex-direction: column;
-  width: 79px;
+  width: 70px;
   height: 100%;
 }
 
@@ -931,65 +875,73 @@ h4 {
 
 /*страница продукт*/
 /*меню карусель*/
-.product_banner {
+.product-banner {
   background: #F7F7F7;
 }
 
-.item_box_product {
+.item-box-product {
   height: 777px;
   width: 100%;
+  background: #F7F7F7;
 }
-
-.item_box_product_woman {
-  background-repeat: no-repeat;
-  background-position: center;
-  background: url(img/product-woman.png);
-  height: 724px;
-}
-
-.item_box_product_price {
+.item-box-product-woman {
   width: 100%;
+  height: 724px;
+  display: flex;
+  justify-content: center;
+}
+.item-box-product-price {
+  width: 1140px;
   height: 601px;
   background: #FFFFFF;
+  border: 1px solid #EAEAEA;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 120px;
+  margin-top: -50px;
 }
 
-.button_cart {
+.button-cart {
   border: 1px solid #F16D7F;
-  height: 47px;
   margin-top: 50px;
+  min-width: 211px;
 }
-
-.button_cart:hover {
-  border: 2px solid #F16D7F;
+.button-cart-link {
+  height: 100%;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  color: #F16D7F;
+  text-align: center;
+  align-items: center;
 }
 
 .fa-cart-plus {
   color: #F16D7F;
-  padding-right: 10px;
 }
 
-.button_cart_link {
-  display: flex;
-  text-decoration: none;
-  padding: 8px;
-  justify-content: center;
-  align-items: center;
-  pointer-events: auto;
+.button-cart-text {
+  font-size: 16px;
+  line-height: 19px;
   color: #F16D7F;
+  padding-top: 12px;
+  padding-left: 10px;
 }
 
-.border_line_product {
+.button-cart-link:hover {
+  border: 3px solid #F16D7F;
+  box-shadow: 0px 5px 8px #F16D7F;
+}
+
+.border-line-product {
   width: 641px;
   border: 1px solid #F16D7F;
   margin-bottom: 50px;
   margin-top: 50px;
 }
 
-.woman_coll {
+.woman-coll {
   font-family: "Lato";
   font-style: normal;
   font-weight: 300;
@@ -1000,7 +952,7 @@ h4 {
   margin-bottom: 27px;
 }
 
-.price_product_disc {
+.price-product-disc {
   font-family: "Lato";
   font-style: normal;
   font-weight: 300;
@@ -1009,7 +961,7 @@ h4 {
   color: #4D4D4D;
 }
 
-.price_product_paragraf {
+.price-product-paragraf {
   font-family: "Lato";
   font-style: normal;
   font-weight: 300;
@@ -1022,7 +974,7 @@ h4 {
   box-sizing: border-box;
 }
 
-.price_product {
+.price-product {
   font-family: "Lato";
   font-style: normal;
   font-weight: 300;
