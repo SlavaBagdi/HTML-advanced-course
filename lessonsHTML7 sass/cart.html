@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/214b462825.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header-menu">
+                <div class="header-left-menu">
+                    <li><a class="header-left-menu-link" href="index.html"><img src="img/logo.svg" alt="logo"></a></li>
+                    <li><a class="header-left-menu-link" href="#"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+                    </li>
+                </div>
+
+
+                <div class="header-right-menu">
+                    <li class="header-right-menu-burgermenu"><a class="header-right-menu-burgermenu" href="#"><i
+                                class="fa-solid fa-align-justify fa-2x"></i></a>
+                        <div class="column-menu">
+                            <h3 class="menu">MENU</h3>
+
+                            <div class="item-column-menu">
+                                <h3 class="header-man" href="product.html">MAN</h3>
+                                <a class="item-column-text" href="product.html">Accessories</a>
+                                <a class="item-column-text" href="product.html">Bags</a>
+                                <a class="item-column-text" href="product.html">Denim</a>
+                                <a class="item-column-text" href="product.html">T-Shirts</a>
+
+                            </div>
+                            <div class="item-column-menu">
+                                <h3 class="header-man" href="product.html">WOMAN</h3>
+                                <a class="item-column-text" href="product.html">Accessories</a>
+                                <a class="item-column-text" href="product.html">Jackets & Coats</a>
+                                <a class="item-column-text" href="product.html">Polos</a>
+                                <a class="item-column-text" href="product.html">T-Shirts</a>
+                                <a class="item-column-text" href="product.html">Shirts</a>
+
+                            </div>
+                            <div class="item-column-menu">
+                                <h3 class="header-man" href="product.html">KIDS</h3>
+                                <a class="item-column-text" href="product.html">Accessories</a>
+                                <a class="item-column-text" href="product.html">Jackets & Coats</a>
+                                <a class="item-column-text" href="product.html">Polos</a>
+                                <a class="item-column-text" href="product.html">T-Shirts</a>
+                                <a class="item-column-text" href="product.html">Shirts</a>
+                                <a class="item-column-text" href="product.html">Bags</a>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="header-right-menu-contact" href="registraion.html"> <i
+                                class="fa-solid fa-user-large fa-2x"></i></a></li>
+                    <li class="header-right-menu-basket"><a href="#"> <i
+                                class="fa-solid fa-cart-shopping fa-2x"></i></a>
+
+                    </li>
+                </div>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <div class="header-catalog">
+        <div class="container">
+            <div class="header-catalog-box">
+
+                <div class="header-catalog-left">
+                    <h4 class="new-arrivals"> SHOPPING CART</h4>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="container">
+            <form action="#">
+                <div class="cart-box">
+                    <div class="item-cart-product-box">
+                        <div class="pic-cart-product-box">
+                            <img src="img/catalog-maninhat.png" alt="foto">
+                        </div>
+                        <div class="cart-box-heading-discr">
+                            <h4 class="cart-box-heading">MANGO PEOPLE T-SHIRT</h4>
+                            <p class="cart-box-discr">Price: <span class="red">$300</span> <br>Color: Red <br> Size: Xl
+                                <br>
+                                Quantity:
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-cart-product-box">
+                        <div class="pic-cart-product-box">
+                            <img src="img/cart-foto-man.png" alt="foto">
+                        </div>
+                        <div class="cart-box-heading-discr">
+                            <h4 class="cart-box-heading">MANGO PEOPLE T-SHIRT</h4>
+                            <p class="cart-box-discr">Price: <span class="red">$300</span> <br>Color: Red <br> Size: Xl
+                                <br>
+                                Quantity:
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item-cart-button">
+
+                        <button class="shopping-cart-button" type="submit"> CLEAR SHOPPING CART</button>
+                        <button class="shopping-cart-button" type="submit"> CONTINUE SHOPPING</button>
+                    </div>
+
+                    <form action="#">
+                        <div class="shipping">
+                            <h5 class="h5">SHIPPING ADRESS</h5>
+                            <input class="input-name" type="text" placeholder="Bangladesh"><br>
+                            <input class="input-name" type="text" placeholder="State"><br>
+                            <input class="input-name" type="text" placeholder="Postcode / Zip"><br>
+                            <button class="shipping-cart-button" type="submit"> GET A QUOTE</button>
+                        </div>
+                    </form>
+
+                    <form action="#">
+                        <div class="cart-total-price">
+                            <div class="total">
+                                <p class="sub-total"> SUB TOTAL $900</p>
+                                <p class="h5">GRAND TOTAL <span class="red">$900</span></p>
+                            </div>
+                            <button class="total-price-cart-button" type="submit"> PROCEED TO CHECKOUT</button>
+                        </div>
+                    </form>
+                </div>
+            </form>
+
+
+        </div>
+
+
+
+
+        </div>
+        </div>
+
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer_link">
+            <div class="container footer_box">
+
+
+                <div class="item_footer"><a href="#"> <img src="img/track.svg" alt="track"> </a>
+                    <h3 class="h3">Free Delivery</h3>
+                    <p class="paragraf_footer">Worldwide delivery on all. Authorit tively morph next-generation
+                        innovtion with extensive models.</p>
+                </div>
+                <div class="item_footer"><a href="#"><img src="img/star.svg" alt="star"></a>
+                    <h3 class="h3">Sales & discounts</h3>
+                    <p class="paragraf_footer">Worldwide delivery on all. Authorit tively morph next-generation
+                        innov tion with extensive models.</p>
+                </div>
+
+
+                <div class="item_footer"> <a href="#"><img src="img/crown.svg" alt="crown"></a>
+                    <h3 class="h3"> Quality assurance</h3>
+                    <p class="paragraf_footer">Worldwide delivery on all. Authorit tively morph next-generation
+                        innov tion with extensive models.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_form">
+            <div class="container footer_box">
+                <figure class="footer_box_second_line">
+                    <div class="woman_face_box">
+                        <img src="img/woman footer.svg" alt="woman face">
+                    </div>
+                    <div class="paragraf_footer_woman_box">
+                        <p class="paragraf_footer_woman">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                            pulvinar
+                            purus condimentum“</p>
+                    </div>
+                </figure>
+
+                <div class="footer_box_second_line">
+
+                    <div class="footer_box_subscribe">
+                        <p><span class="subscribe">SUBSCRIBE</span> <br><span class="for_our">FOR OUR NEWLETTER AND
+                                PROMOTION</span> </p>
+                    </div>
+
+                    <form class="footer_box_mail">
+                        <form action="send.php" method="post">
+                            <input class="email" type="text" name="email" placeholder="Enter Your Email">
+                            <input class="batton_submit" type="submit" value="Subscribe">
+                        </form>
+                    </form>
+
+                </div>
+
+            </div>
+
+            <div class="footer_bottom">
+                <div class="container footer_bottom_box">
+                    <div class="footer_copyright">
+                        <p> &copy; 2021 Brand All Rights Reserved.</p>
+                    </div>
+                    <div class="socialnet">
+                        <a href="#"><i class="fa fa-brands fa-vk"></i></a>
+                        <a href="#"><i class="fa fa-brands fa-twitter-square"></i></a>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </footer>
+</body>
