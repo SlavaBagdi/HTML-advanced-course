@@ -1,0 +1,36 @@
+.catalog-menu-right
+    width: 100%
+    display: flex
+    justify-content: center
+
+.size
+    display: flex
+    flex-direction: column
+
+.checkbox
+    padding-bottom: 10px
+    box-sizing: border-box
+    &:hover
+        color: $color-main
+
+.submenu-size
+    opacity: 0
+    z-index: 10000
+    list-style: none
+    flex-wrap: wrap
+    background-color: #FFFFFF
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21)
+    padding-left: 10px
+    padding-top: 10px
+    width: 79px
+    height: 100%
+    text-decoration: none
+
+.menu-list .menu-item:hover .submenu-size
+    opacity: 1
+
+.fa-chevron-down
+    color: #6F6E6E
+    &:hover
+
+        color: $color-main
