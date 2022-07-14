@@ -1,0 +1,76 @@
+/*форма регистрации  */
+.registration-header
+    height: 148px
+    background-color: #F8F3F4
+
+.registration
+    background-color: #E5E5E5
+
+    &-box
+        display: flex
+        justify-content: space-between
+
+.your-name
+    margin-top: 64px
+
+.text-registration-form
+    font-family: $font-family
+    font-style: normal
+    font-weight: 300
+    font-size: 13px
+    line-height: 16px
+    color: #B1B1B1
+    margin-bottom: 39px
+    max-width: 359px
+    min-height: 32px
+
+.login-details
+    margin-top: 33px
+    margin-bottom: 16px
+
+.check-box
+    width: 132px
+    height: 17px
+    font-family: $font-family
+    font-style: normal
+    font-weight: 300
+    font-size: 11px
+    line-height: 13px
+    color: #000000
+    margin-top: 31px
+    display: flex
+    justify-content: space-between
+
+.radio:hover
+    border: 1px solid $color-main
+    width: 20px
+    height: 20px
+
+.radio
+    width: 17px
+    height: 17px
+    padding-right: 10px
+
+.loyaity-box
+    width: 652px
+    height: 334px
+    margin-top: 64px
+    margin-left: 128px
+
+.loyality-bonus-li::before
+    content: '✓ '
+
+.loyality-bonus-li
+    padding-bottom: 16px
+
+.submit-registration-form
+    width: 167px
+    height: 50px
+    margin-bottom: 96px
+    @extend .latonormal400
+    font-size: 14px
+    line-height: 17px
+
+    &:hover
+        background-color: $color-main
+        color: #FFFFFF
